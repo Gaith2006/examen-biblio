@@ -4,3 +4,6 @@ exemplaires = int(input("Nombre d'exemplaires : "))
 
 print("Livre : ",titre)
 print("Exemplaires disponibles :",exemplaires)
+#Emprunt d'un livre
+exemplaires = exemplaires - 1
+print("Apres emprunt : ",exemplaires,"exemplaire(s) disponible(s)")
